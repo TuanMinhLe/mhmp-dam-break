@@ -2,7 +2,7 @@
 
 Notebook của Nhóm 7 cho học phần Mô hình mô phỏng: giải hệ nước nông bằng phương pháp thể tích hữu hạn bậc một với thông lượng **Rusanov** và **HLL**, đối chiếu với nghiệm **Stoker**.
 
-Kho mã chứa một notebook, mã Python, dữ liệu CSV dùng để kiểm tra kết quả và các kiểm thử tính toán. Thư mục **[outputs/](outputs/)** kèm sẵn kết quả của lần chạy với cấu hình ban đầu, để mọi người có thể xem trước mà không cần cài Python.
+Kho mã chứa một notebook, mã Python, dữ liệu CSV dùng để kiểm tra kết quả và các kiểm thử tính toán. Thư mục **[outputs/](outputs/)** kèm sẵn kết quả của lần chạy với cấu hình ban đầu.
 
 ## Xem kết quả đã chạy
 
