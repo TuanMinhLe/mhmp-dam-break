@@ -6,7 +6,7 @@ Kho mã chứa một notebook, mã Python, dữ liệu CSV dùng để kiểm tr
 
 ## Xem kết quả đã chạy
 
-Mở các hình PNG, bảng CSV và tệp JSON ngay trên GitHub. Với **[hoạt ảnh tương tác](outputs/mo-phong-vo-dap.html)**, tải tệp HTML về máy rồi mở bằng trình duyệt và nhấn **▶ Phát**. GitHub chỉ hiển thị mã nguồn HTML, không chạy hoạt ảnh trong trang xem tệp. Bản HTML đã chứa thư viện đồ thị nên sau khi tải về có thể dùng khi không có mạng, không cần Python hoặc Jupyter.
+Mở các hình PNG, bảng CSV và tệp JSON ngay trên GitHub. Với **[hoạt ảnh tương tác](outputs/mo-phong-vo-dap.html)**, tải tệp HTML về máy rồi mở bằng trình duyệt và nhấn **▶ Phát**. 
 
 Bộ kết quả gồm 10 tệp:
 
