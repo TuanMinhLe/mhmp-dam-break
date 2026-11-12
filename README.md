@@ -111,7 +111,7 @@ Bốn tệp dữ liệu được giữ vì notebook đọc trực tiếp:
 | `data/report-parameters/all-runs.csv` | Kiểm tra số lượt trong bộ 84 lượt. |
 | `data/report-parameters/summary.json` | Đọc danh sách tham số, số cấu hình và các cực trị để hiển thị. |
 
-Notebook chỉ đọc các tệp trong `data/`; kết quả tính mới nằm trong `outputs/`. Dấu SHA-256 phát hiện thay đổi ở mã hoặc dữ liệu gốc. Nếu chủ động sửa thuật toán, cần kiểm thử lại rồi cập nhật danh sách dấu kiểm tương ứng; sửa ô tham số của notebook không làm thay đổi danh sách này.
+Notebook chỉ đọc các tệp trong `data/`; kết quả tính mới nằm trong `outputs/`.
 
 ## Kiểm tra mã
 
