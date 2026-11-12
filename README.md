@@ -35,8 +35,6 @@ python -m jupyterlab
 
 Mở **[bao-cao-nhom-7.ipynb](bao-cao-nhom-7.ipynb)**, chọn kernel Python của môi trường vừa cài và chọn **Restart Kernel and Run All Cells**. Đợi phần tính toán chạy xong, rồi nhấn **▶ Phát** một lần trong đồ thị tương tác. Không cần chạy lại ô cho từng bước thời gian.
 
-Notebook trên GitHub đã xóa đầu ra. Trang xem tĩnh của GitHub không chạy Python hoặc hoạt ảnh; cần mở bằng JupyterLab để sử dụng các điều khiển.
-
 ## Cấu hình ban đầu
 
 | Đại lượng | Giá trị |
@@ -53,7 +51,7 @@ Notebook trên GitHub đã xóa đầu ra. Trang xem tĩnh của GitHub không c
 
 Sửa ô tham số để thử số ô, độ sâu, CFL hoặc thời gian khác, rồi chạy lại toàn bộ. Cần giữ $h_L>h_R>0$, $0<\mathrm{CFL}\leq0{,}5$ và thời điểm đối chiếu trước khi sóng chạm biên; notebook kiểm tra các điều kiện này.
 
-Các nút **Tạm dừng**, **Về đầu**, thanh thời gian và lựa chọn HLL/Rusanov dùng cùng các trạng thái đã tính. Thời gian phát không làm thay đổi bước thời gian của bộ giải. Sau khi chạy, có thể mở `outputs/mo-phong-vo-dap.html` bằng trình duyệt; tệp HTML tự chứa thư viện đồ thị và dùng được khi không có mạng.
+Các nút **Tạm dừng**, **Về đầu**, thanh thời gian và lựa chọn HLL/Rusanov dùng cùng các trạng thái đã tính. Thời gian phát không làm thay đổi bước thời gian của bộ giải. Sau khi chạy, có thể mở `outputs/mo-phong-vo-dap.html` bằng trình duyệt.
 
 ## Nội dung tính toán
 
@@ -67,7 +65,7 @@ Theo mặc định, notebook tính mới hai lượt cho hoạt ảnh và 24 lư
 
 Lịch lưu của hoạt ảnh gồm 121 mốc, trong khi các phép đo theo cấu hình báo cáo dùng các mốc `[0,2,4,6]` s. Bước cuối mỗi khoảng bị rút ngắn để đến đúng mốc lưu, nên hai lịch có thể cho sai số hơi khác nhau. Không dùng số liệu trên hoạt ảnh thay cho bảng sai số của khảo sát.
 
-## Cấu trúc kho mã
+## Cấu trúc
 
 ```text
 bao-cao-nhom-7.ipynb     Notebook duy nhất cần mở
