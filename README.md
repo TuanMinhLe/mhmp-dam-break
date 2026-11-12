@@ -4,6 +4,11 @@ Notebook của Nhóm 7 cho học phần Mô hình mô phỏng: giải hệ nư�
 
 Kho mã chứa một notebook, mã Python, dữ liệu CSV dùng để kiểm tra kết quả và các kiểm thử tính toán. Thư mục **[outputs/](outputs/)** kèm sẵn kết quả của lần chạy với cấu hình ban đầu.
 
+## Báo cáo và slide
+
+- [Báo cáo (PDF)](docs/bao-cao-nhom-7-final.pdf)
+- [Slide thuyết trình (PDF)](docs/bao-cao-nhom-7-slides.pdf)
+
 ## Xem kết quả đã chạy
 
 Mở các hình PNG, bảng CSV và tệp JSON ngay trên GitHub. Với **[hoạt ảnh tương tác](outputs/mo-phong-vo-dap.html)**, tải tệp HTML về máy rồi mở bằng trình duyệt và nhấn **▶ Phát**. 
