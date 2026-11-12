@@ -1,0 +1,19 @@
+{
+  "source_sha256": {
+    "dambreak/__init__.py": "989bb0cc4577dcce5151b0633410942efcbf3f7cab4f2f0e254afd01dc5cc8e8",
+    "dambreak/exact.py": "da5ecaca459e903971da5e5b34614c6e41684c2a2776dc901982d53771bd885b",
+    "dambreak/experiments.py": "2ba604b3d382bd1f218e99e1e697aa5b4d757f5753b61d931d9b1e4933c43bff",
+    "dambreak/interactive.py": "2ff8e774c2fd7d1b149e363810103bacf9e0cace2292756cdbe39933db710798",
+    "dambreak/plotting.py": "0d1341b907e552d6c3dcb09818ee2ab7a32cdbfdebaa73e40169220878b7fe94",
+    "dambreak/smooth.py": "3f4c905e33969d2cef00983abbc638a601b5ac0674ed89feef6482fe8e00e77f",
+    "dambreak/solver.py": "d06fa025e099c1fef0d1c52904973bb867c527ab2e45d136d72a045b3db23ff4",
+    "dambreak/style.py": "4f9aee69787e800a3f4d703eab788603128f3c7fa0565c44ed9583dc13858a79",
+    "parameter_study.py": "e427a6c2557f536e12eb79c8f5edfcb2a7f158dfc1636ee885f5d4e5587aa2ac"
+  },
+  "data_sha256": {
+    "data/report-baseline/convergence.csv": "f48edcca253feafe76f25c1879173661f55a6ebdebcbeeeb581a135eae87e57e",
+    "data/report-parameters/all-runs.csv": "faf50b2712f4d56213fd0c1310c160396aa9f3734d478084635944491bcb14ac",
+    "data/report-parameters/factorial.csv": "b503a41a127c5cc5c8a4081cca8654175d97fe9cd5d21050c6c9fa4a557ca1e2",
+    "data/report-parameters/summary.json": "2b5689af33071af16f0ecf42c4f87c625bda0321fdf9fdb8df696e275fddde4d"
+  }
+}

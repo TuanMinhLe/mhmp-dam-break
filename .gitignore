@@ -1,0 +1,19 @@
+# Kết quả được tạo khi chạy notebook hoặc chương trình khảo sát
+outputs/
+results/
+
+# Môi trường Python và bộ nhớ đệm
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Tệp hệ điều hành và cấu hình riêng
+.DS_Store
+Thumbs.db
+.env
+.env.*

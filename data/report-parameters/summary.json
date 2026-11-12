@@ -1,0 +1,23 @@
+{
+  "number_of_pde_runs": 84,
+  "number_of_unique_configurations": 80,
+  "grids": [
+    100,
+    200,
+    400,
+    800
+  ],
+  "cfl_values": [
+    0.2,
+    0.3,
+    0.45
+  ],
+  "depth_ratios": [
+    0.05,
+    0.2,
+    0.5
+  ],
+  "minimum_depth": 0.00025,
+  "maximum_mass_residual": 5.393896983419329e-16,
+  "maximum_momentum_residual": 2.168404344971009e-18
+}
