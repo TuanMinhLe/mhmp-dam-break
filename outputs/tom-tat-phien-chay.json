@@ -1,0 +1,26 @@
+{
+  "parameters": {
+    "N": 400,
+    "h_left_mm": 5.0,
+    "h_right_mm": 1.0,
+    "cfl": 0.45,
+    "final_time": 6.0,
+    "frames": 121,
+    "playback_seconds": 10.0
+  },
+  "demonstration_runs": 2,
+  "report_schedule_runs": 24,
+  "saved_report_runs": 84,
+  "full_report_rerun": false,
+  "all_depths_positive": true,
+  "max_actual_cfl": 0.4500000000000001,
+  "max_abs_mass_residual": 5.393896983419329e-16,
+  "max_abs_momentum_residual": 2.168404344971009e-18,
+  "displayed_frames": 121,
+  "simulated_time": 6.0,
+  "versions": {
+    "python": "3.14.4",
+    "numpy": "2.5.4",
+    "plotly": "7.1.0"
+  }
+}

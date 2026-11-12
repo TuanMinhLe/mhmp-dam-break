@@ -1,5 +1,15 @@
-# Kết quả được tạo khi chạy notebook hoặc chương trình khảo sát
-outputs/
+# Giữ đúng bộ kết quả mặc định; bỏ qua các lượt chạy đầy đủ và tệp tạm.
+/outputs/*
+!/outputs/mo-phong-vo-dap.html
+!/outputs/nghiem-so-va-stoker.png
+!/outputs/can-bang.png
+!/outputs/anh-huong-luoi.png
+!/outputs/anh-huong-cfl.png
+!/outputs/anh-huong-ti-so-do-sau.png
+!/outputs/thang-do-sau.png
+!/outputs/bao-cao-72-to-hop.png
+!/outputs/khao-sat-trong-notebook.csv
+!/outputs/tom-tat-phien-chay.json
 results/
 
 # Môi trường Python và bộ nhớ đệm

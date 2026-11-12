@@ -2,7 +2,28 @@
 
 Notebook của Nhóm 7 cho học phần Mô hình mô phỏng: giải hệ nước nông bằng phương pháp thể tích hữu hạn bậc một với thông lượng **Rusanov** và **HLL**, đối chiếu với nghiệm **Stoker**.
 
-Kho mã chứa một notebook, mã Python, dữ liệu CSV dùng để kiểm tra kết quả và các kiểm thử tính toán. Các hình, hoạt ảnh HTML và dữ liệu chạy mới được tạo trên máy khi thực thi.
+Kho mã chứa một notebook, mã Python, dữ liệu CSV dùng để kiểm tra kết quả và các kiểm thử tính toán. Thư mục **[outputs/](outputs/)** kèm sẵn kết quả của lần chạy với cấu hình ban đầu, để mọi người có thể xem trước mà không cần cài Python.
+
+## Xem kết quả đã chạy
+
+Mở các hình PNG, bảng CSV và tệp JSON ngay trên GitHub. Với **[hoạt ảnh tương tác](outputs/mo-phong-vo-dap.html)**, tải tệp HTML về máy rồi mở bằng trình duyệt và nhấn **▶ Phát**. GitHub chỉ hiển thị mã nguồn HTML, không chạy hoạt ảnh trong trang xem tệp. Bản HTML đã chứa thư viện đồ thị nên sau khi tải về có thể dùng khi không có mạng, không cần Python hoặc Jupyter.
+
+Bộ kết quả gồm 10 tệp:
+
+| Tệp | Nội dung |
+|---|---|
+| [mo-phong-vo-dap.html](outputs/mo-phong-vo-dap.html) | Hoạt ảnh 0–6 s, có phát, tạm dừng, thanh thời gian và lựa chọn HLL/Rusanov. |
+| [nghiem-so-va-stoker.png](outputs/nghiem-so-va-stoker.png) | So sánh nghiệm số với nghiệm Stoker. |
+| [can-bang.png](outputs/can-bang.png) | Kiểm tra cân bằng có thông lượng biên. |
+| [anh-huong-luoi.png](outputs/anh-huong-luoi.png) | Ảnh hưởng của số ô lưới. |
+| [anh-huong-cfl.png](outputs/anh-huong-cfl.png) | Ảnh hưởng của CFL. |
+| [anh-huong-ti-so-do-sau.png](outputs/anh-huong-ti-so-do-sau.png) | Ảnh hưởng của tỉ số độ sâu. |
+| [thang-do-sau.png](outputs/thang-do-sau.png) | So sánh khi thay đổi thang độ sâu tuyệt đối. |
+| [bao-cao-72-to-hop.png](outputs/bao-cao-72-to-hop.png) | Bảng màu sai số của 72 tổ hợp trong dữ liệu đã lưu. |
+| [khao-sat-trong-notebook.csv](outputs/khao-sat-trong-notebook.csv) | Kết quả 24 lượt tính mới theo lịch lưu thưa. |
+| [tom-tat-phien-chay.json](outputs/tom-tat-phien-chay.json) | Tham số, số lượt tính và các chỉ số kiểm tra của phiên chạy. |
+
+Muốn đổi tham số hoặc tính lại kết quả, làm theo hướng dẫn cài đặt bên dưới. Chạy lại notebook sẽ cập nhật các tệp cùng tên trong `outputs/`.
 
 ## Cài đặt và mở notebook
 
@@ -75,6 +96,7 @@ checks/source-integrity.json
                          SHA-256 của mã và các tệp dữ liệu kèm theo
 data/report-baseline/    Sai số theo lưới của bộ cơ sở
 data/report-parameters/  Dữ liệu khảo sát kết hợp và các giá trị tổng hợp
+outputs/                HTML tương tác, 7 hình PNG, CSV và JSON đã chạy sẵn
 tests/                   Kiểm thử nghiệm tham chiếu, thông lượng và bộ giải
 tools/clear_notebook_outputs.py
                          Xóa đầu ra notebook trước khi commit
@@ -105,7 +127,7 @@ Trước khi commit notebook đã chạy:
 python tools/clear_notebook_outputs.py
 ```
 
-`outputs/`, môi trường Python và bộ nhớ đệm được loại khỏi Git bằng `.gitignore`.
+Lệnh này chỉ xóa đầu ra trong các ô notebook, không xóa tệp ở `outputs/`. `.gitignore` cho phép lưu đúng 10 tệp kết quả nêu trên; các đầu ra khác, thư mục `outputs/full-report-rerun/`, môi trường Python và bộ nhớ đệm được loại khỏi Git. Sau khi thử tham số khác, kiểm tra các tệp kết quả thay đổi trước khi commit để phần mô tả và cấu hình được lưu cùng nhau.
 
 Môi trường đã dùng để kiểm tra: Python 3.14.4, NumPy 2.5.4, Matplotlib 3.11.2 và Plotly 7.1.0. `requirements.txt` cho phép các phiên bản tương thích; khi đổi môi trường, chạy lại bộ kiểm thử trước khi đối chiếu số liệu.
 
